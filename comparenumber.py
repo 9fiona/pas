@@ -39,7 +39,7 @@ class CompareNumber(RandomNumber):
 				else:  # num1 > num3 > num2
 					print("%d > %d > %d" % (self.n1, self.n3, self.n2))
 			else:  # num3 > num1 > num2
-				print("%d > %sd > %d" % (self.n3, self.n1, self.n2))
+				print("%d > %d > %d" % (self.n3, self.n1, self.n2))
 		else:  # num2 > num1
 			if self.n2 > self.n3:  # num2 > num3
 				if self.n1 > self.n3:  # num2 > num1 > num3
@@ -50,5 +50,5 @@ class CompareNumber(RandomNumber):
 				print("%d > %d > %d" % (self.n3, self.n2, self.n1))
 
 
-number3 = CompareNumber(23, 54, 33)
+number3 = CompareNumber(121, 126, 124)
 number3.num_com()
