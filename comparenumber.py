@@ -1,5 +1,5 @@
 """
-2019.03.04 PAS; Python Add Study 제출용 과제
+2019.03.04 PAS; Python Add Study 과제
 num1, num2, num3는 임의의 숫자로 입력
 최종 출력문
 print("%d > %d > %d" % (num1, num2, num3)
